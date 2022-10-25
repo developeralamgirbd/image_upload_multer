@@ -69,5 +69,3 @@ exports.imageUpload = async (req, res)=>{
         })
     }
 }
-
-db.dummyproducts.find({price: {$lt: 100}}, {title: 1, price: 1})
